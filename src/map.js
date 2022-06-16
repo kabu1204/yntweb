@@ -1,15 +1,10 @@
 import Vue from 'vue'
-import App from './App.vue'
 import vuetify from './plugins/vuetify'
+import yntmap from "@/pages/yntmap";
 
 Vue.config.productionTip = false
 
 new Vue({
-  vuetify,
-  render: h => h(App)
+    vuetify,
+    render: h => h(yntmap)
 }).$mount('#app')
-
-new Vue({
-  vuetify,
-  render: h => h(App)
-}).$mount('#pics')
